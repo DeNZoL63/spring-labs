@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6029da4-987e-48e0-bd87-3402c05182b6" name="Default" comment="complete 1 part">
+    <list default="true" id="f6029da4-987e-48e0-bd87-3402c05182b6" name="Default" comment="complete 2 part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/Country.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/UsualPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/UsualPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/springioc/lab3/model/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/springioc/lab3/model/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571407115562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="complete 2 part">
+      <created>1571407263976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571407263976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -312,7 +319,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete 1 part" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete 1 part" />
+    <MESSAGE value="complete 2 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete 2 part" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

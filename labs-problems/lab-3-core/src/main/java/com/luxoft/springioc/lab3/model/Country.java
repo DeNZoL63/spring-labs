@@ -11,19 +11,18 @@ public class Country implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 
-    @Value("${country.id}")
 	private int id;
-
-    @Value("${country.name}")
     private String name;
-
-    @Value("${country.codeName}")
     private String codeName;
 
     public Country() {
     }
 
-    public Country(int id, String name, String codeName) {
+    public Country(
+            @Value("${country.id}") int id,
+            @Value("${country.name}") String name,
+            @Value("${country.codeName}") String codeName
+    ) {
         this.id = id;
         this.name = name;
         this.codeName = codeName;

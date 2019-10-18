@@ -17,29 +17,34 @@ public class UsualPerson implements Person, InitializingBean, DisposableBean {
 	
 	public static int createdPersons = 0; 
 
-    @Value("${person.id}")
     private int id;
-
-    @Value("${person.name}")
     private String name;
-
-    @Autowired
     private Country country;
-
-    @Value("${person.age}")
     private int age;
-
-    @Value("${person.height}")
     private float height;
-
-    @Value("${person.isProgrammer}")
     private boolean isProgrammer;
-
-    @Value("${person.isRegistered}")
     private boolean isRegistered;
-
-    @Value("${person.contacts}")
     private List<String> contacts;
+
+    public UsualPerson(
+            @Value("${person.id}") int id,
+            @Value("${person.name}") String name,
+            @Autowired Country country,
+            @Value("${person.age}") int age,
+            @Value("${person.height}") float height,
+            @Value("${person.isProgrammer}") boolean isProgrammer,
+            @Value("${person.isRegistered}") boolean isRegistered,
+            @Value("${person.contacts}") List<String> contacts
+    ) {
+        this.id = id;
+        this.name = name;
+        this.country = country;
+        this.age = age;
+        this.height = height;
+        this.isProgrammer = isProgrammer;
+        this.isRegistered = isRegistered;
+        this.contacts = contacts;
+    }
 
     public void setIsProgrammer(boolean isProgrammer) {
         this.isProgrammer = isProgrammer;
