@@ -1,35 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6029da4-987e-48e0-bd87-3402c05182b6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-2-core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-2-core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f6029da4-987e-48e0-bd87-3402c05182b6" name="Default" comment="complete 1 part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-3-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-3-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/UsualPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/springioc/lab3/model/UsualPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/person.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/person.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/springioc/lab3/model/SimpleAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/springioc/lab3/model/SimpleAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/springioc/lab3/model/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/springioc/lab3/model/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleAppTest">
+  <component name="RunManager" selected="JUnit.RegistrationTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -292,8 +267,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleAppTest" />
         <item itemvalue="JUnit.RegistrationTest" />
+        <item itemvalue="JUnit.SimpleAppTest" />
         <item itemvalue="JUnit.SpringTCFAppTest" />
         <item itemvalue="JUnit.RegistrationTest.testPersonRegistration" />
       </list>
@@ -311,6 +286,14 @@
       <updated>1472121395294</updated>
       <workItem from="1472121399414" duration="2693000" />
     </task>
+    <task id="LOCAL-00001" summary="complete 1 part">
+      <created>1571407115562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571407115562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -326,6 +309,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="complete 1 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete 1 part" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
