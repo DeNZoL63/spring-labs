@@ -1,5 +1,6 @@
 package com.luxoft.springioc.lab3.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
@@ -11,26 +12,31 @@ public class Country implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 
+    @Value("${country.id}")
 	private int id;
+    @Value("${country.name}")
     private String name;
+    @Value("${country.codeName}")
     private String codeName;
+    @Autowired
+    private Language language;
 
     public Country() {
-    }
-
-    public Country(
-            @Value("${country.id}") int id,
-            @Value("${country.name}") String name,
-            @Value("${country.codeName}") String codeName
-    ) {
-        this.id = id;
-        this.name = name;
-        this.codeName = codeName;
     }
 
     public Country(String name, String codeName) {
         this.name = name;
         this.codeName = codeName;
+    }
+
+    public Country(int id, String name, String codeName) {
+        this(name, codeName);
+        this.id = id;
+    }
+
+    public Country(int id, String name, String codeName, Language language) {
+        this(id, name, codeName);
+        this.language = language;
     }
 
     public int getId() {
