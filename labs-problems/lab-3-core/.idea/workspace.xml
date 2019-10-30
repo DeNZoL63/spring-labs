@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6029da4-987e-48e0-bd87-3402c05182b6" name="Default" comment="complete 2 part" />
+    <list default="true" id="f6029da4-987e-48e0-bd87-3402c05182b6" name="Default" comment="homework" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571407263976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="homework">
+      <created>1571639651945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571639651945</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -307,7 +314,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -316,7 +325,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete 1 part" />
     <MESSAGE value="complete 2 part" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete 2 part" />
+    <MESSAGE value="homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
